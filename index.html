@@ -8,37 +8,41 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <div class="stage">
+        <header style="text-align: right; padding: 10px;">
+            <button class="lang-btn" data-lang="fr">FR</button>
+            <button class="lang-btn" data-lang="en">EN</button>
+        </header>
 
+        <div class="stage">
             <main class="content" aria-hidden="false">
                 <section class="hero" role="region" aria-label="presentation">
                     <div class="hero-inner">
                         <div class="hero-avatar">
-                            <img src="imgs/pdp1.png" alt="photo de profil" width="120" height="120" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'" />
+                            <img src="imgs/pdp1.png" data-i18n-alt="avatarAlt" alt="photo de profil" width="120" height="120" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'" />
                             <div class="avatar-fallback" aria-hidden="true"></div>
                         </div>
                         <div class="hero-text">
                             <h1 class="pseudo">Dr.Taiko</h1>
-                            <p class="subtitle">A toi l'honneur twin <3 </p>
+                            <p class="subtitle" data-i18n="heroSubtitle">A toi l'honneur twin <3 </p>
                         </div>
                     </div>
                 </section>
 
                 <section class="about" role="region" aria-label="à propos">
                     <div class="card about-card">
-                        <h2>À propos de moi</h2>
-                        <p>JCOMPTE SUR TOI POUR COOK !! ;D</p>
+                        <h2 data-i18n="aboutTitle">À propos de moi</h2>
+                        <p data-i18n="aboutText">JCOMPTE SUR TOI POUR COOK !! ;D</p>
                     </div>
                 </section>
 
                 <section class="projects" role="region" aria-label="projets">
                     <div class="card projects-card">
-                        <h2>Projets</h2>
+                        <h2 data-i18n="projectsTitle">Projets</h2>
                         <ul class="project-list">
-                            <li class="project-item"><a href="#">Projet  </a></li>
-                            <li class="project-item"><a href="#">Projet  </a></li>
-                            <li class="project-item"><a href="#">Projet  </a></li>
-                            <li class="project-item"><a href="#">Projet (en vrai j'en ai pas mais faut faire genre) </a></li>
+                            <li class="project-item"><a href="#" data-i18n="project1">Projet 1</a></li>
+                            <li class="project-item"><a href="#" data-i18n="project2">Projet 2</a></li>
+                            <li class="project-item"><a href="#" data-i18n="project3">Projet 3</a></li>
+                            <li class="project-item"><a href="#" data-i18n="project4">Projet (en vrai j'en ai pas mais faut faire genre)</a></li>
                         </ul>
                     </div>
                 </section>
@@ -46,9 +50,9 @@
                 <footer class="site-footer" role="contentinfo">
                     <div class="footer-inner">
                         <div class="contact-buttons">
-                            <a class="btn discord" href="https://discord.gg/myMP4CpgxY" aria-label="Bonk! vert">Discord</a>
-                            <a class="btn mail" href="mailto:Dr.Taiko@proton.me" aria-label="Email">Mail</a>
-                            <a class="btn github" href="https://github.com/Dr-Taiko" aria-label="GitHub">GitHub</a>
+                            <a class="btn discord" href="https://discord.gg/myMP4CpgxY" data-i18n-aria="discordAria" aria-label="Bonk! vert">Discord</a>
+                            <a class="btn mail" href="mailto:Dr.Taiko@proton.me" data-i18n-aria="mailAria" aria-label="Email">Mail</a>
+                            <a class="btn github" href="https://github.com/Dr-Taiko" data-i18n-aria="githubAria" aria-label="GitHub">GitHub</a>
                         </div>
                     </div>
                 </footer>
