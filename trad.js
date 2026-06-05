@@ -2,8 +2,8 @@ const PAGE_TRANSLATIONS = {
     index: {
         en: {
             pageTitle: "Dr.Taiko's portfolio",
-            avatarAlt: "Welcome to my portfolio, enjoy reading!",
-            heroSubtitle: "...",
+            avatarAlt: "...",
+            heroSubtitle: "Welcome to my portfolio, enjoy reading!",
             aboutTitle: "About myself",
             aboutText: "Heya! I'm Dr.Taiko, and I am someone who LOVES technology since I was little, and I'm obsessed with trying silly things like playing Half-Life 2 on every device I own, homebrewing consoles and install mods for 5+ hours while knowing that I'll play it once and then never touch it again, ricing my Linux even though I should be working etc... In short, I'm a busy person for the wrong reasons. But SOMETIMES I lock in and do the job for real.",
             projectsTitle: "My projects :",
