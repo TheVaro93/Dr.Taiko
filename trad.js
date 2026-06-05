@@ -1,13 +1,13 @@
 const PAGE_TRANSLATIONS = {
     index: {
         en: {
-            pageTitle: "trad",
+            pageTitle: "Dr.Taiko's portfolio",
             avatarAlt: "...",
             heroSubtitle: "...",
             aboutTitle: "...",
             aboutText: "...",
-            projectsTitle: "...",
-            project1: "...",
+            projectsTitle: "My projects :",
+            project1: "IMBATABLE : A fan-made UNBEATABLE French translation mod.",
             project2: "...",
             project3: "...",
             project4: "...",
