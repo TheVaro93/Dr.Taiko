@@ -1,26 +1,22 @@
 const PAGE_TRANSLATIONS = {
     index: {
         en: {
-            pageTitle: "Dr.Taiko's portfolio",
-            avatarAlt: "Welcome to my portfolio, enjoy reading!",
-            heroSubtitle: "Welcome to my portfolio, enjoy reading!",
-            aboutTitle: "About myself",
-            aboutText: "Heya! I'm Dr.Taiko, and I am someone who LOVES technology since I was little, and I'm obsessed with trying silly things like playing Half-Life 2 on every device I own, homebrewing consoles and install mods for 5+ hours while knowing that I'll play it once and then never touch it again, ricing my Linux even though I should be working etc... In short, I'm a busy person for the wrong reasons. But SOMETIMES I lock in and do the job for real.",
-            projectsTitle: "My projects",
-            project1: "IMBATABLE : A fan-made UNBEATABLE French translation mod.",
-            project2: "Nothing (yet!)",
-            project3: "Nothing (yet!)",
-            project4: "Nothing (yet!)",
+            pageTitle: "trad",
+            avatarAlt: "...",
+            heroSubtitle: "...",
+            aboutTitle: "...",
+            aboutText: "...",
+            projectsTitle: "...",
+            project1: "...",
+            project2: "...",
+            project3: "...",
+            project4: "...",
             discordAria: "...",
             mailAria: "...",
             githubAria: "..."
         }
     }
 };
-
-function getPageKey() {
-    return "index";
-}
 
 function captureOriginalState() {
     const original = {
@@ -96,12 +92,10 @@ function applyLanguage(lang, original) {
         return;
     }
 
-    const pageKey = getPageKey();
-    const dictionary = PAGE_TRANSLATIONS[pageKey]?.en;
-
+    const dictionary = PAGE_TRANSLATIONS.index?.en;
     if (!dictionary) return;
 
-    document.documentElement.lang = lang;
+    document.documentElement.lang = "en";
 
     document.querySelectorAll("[data-i18n]").forEach((element) => {
         const key = element.getAttribute("data-i18n");
