@@ -93,18 +93,20 @@ body{
 }
 .avatar-fallback{display:none;background:linear-gradient(180deg,#FFD180,#FFB86B)}
 
+/* hero-text = row : titles à gauche, switcher collé à droite */
 .hero-text{
     display:flex;
     flex-direction:row;
     align-items:center;
-    justify-content:space-between; 
-    flex-grow: 1;
+    justify-content:space-between;
+    flex-grow:1;
     gap:16px;
 }
+
 .hero-titles{
     display:flex;
     flex-direction:column;
-    gap:6px;
+    gap:4px;
 }
 
 .pseudo{margin:0;font-size:clamp(28px,4vw,38px);letter-spacing:.4px}
@@ -140,16 +142,16 @@ body{
     box-shadow:0 10px 24px rgba(2,6,23,.35)
 }
 
-.footer-inner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
+.footer-inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px;
 }
 
-.footer-copyright {
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;
+.footer-copyright{
+    color:rgba(255,255,255,0.6);
+    font-size:14px;
 }
 
 .contact-buttons{display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap}
@@ -168,34 +170,38 @@ body{
 .btn.mail{border-color:rgba(255,184,107,.28);color:var(--accent)}
 .btn.github{border-color:rgba(255,255,255,.18)}
 
-.lang-switcher {
-    display: flex;
-    gap: 6px;
-    margin-left: auto; 
+/* Lang switcher — même style que les .btn du footer */
+.lang-switcher{
+    display:flex;
+    gap:6px;
+    flex-shrink:0;
 }
 
-.lang-btn {
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    color: rgba(255, 255, 255, 0.6);
-    padding: 6px 10px;
-    font-size: 12px;
-    font-weight: 600;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: all 0.2s ease;
+.lang-btn{
+    background:transparent;
+    border:1px solid rgba(255,255,255,0.12);
+    color:rgba(255,255,255,0.6);
+    padding:8px 12px;
+    font-size:12px;
+    font-weight:600;
+    border-radius:12px;
+    cursor:pointer;
+    backdrop-filter:blur(4px);
+    transition:transform .15s ease,box-shadow .15s ease,background .15s ease,border-color .15s ease,color .15s ease;
 }
 
-.lang-btn:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 184, 107, 0.3); 
-    color: #fff;
+.lang-btn:hover{
+    transform:translateY(-3px);
+    background:rgba(255,255,255,.04);
+    box-shadow:0 10px 24px rgba(2,6,23,.35);
+    border-color:rgba(255,184,107,0.3);
+    color:#fff;
 }
 
-.lang-btn.active {
-    background: rgba(255, 209, 128, 0.15);
-    border-color: var(--accent);
-    color: var(--accent);
+.lang-btn.active{
+    background:rgba(255,209,128,0.15);
+    border-color:var(--accent);
+    color:var(--accent);
 }
 
 @keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
@@ -205,18 +211,18 @@ body{
 @media (max-width:760px){
     .content{width:min(620px,94vw);gap:14px}
     .hero-inner{flex-direction:column;text-align:center}
-    
+
     .hero-text{
         flex-direction:column;
         align-items:center;
-        text-align:center; 
-        width: 100%;
+        text-align:center;
+        width:100%;
     }
+
     .lang-switcher{
-        margin-left: 0;
-        margin-top: 4px;
+        margin-top:4px;
     }
-    
+
     .hero-avatar img,
     .avatar-fallback{width:108px;height:108px}
     .about-card,
@@ -229,12 +235,11 @@ body{
     body{overflow:auto}
     .stage{height:auto;min-height:100vh;padding:16px}
     .content{width:min(100%,92vw)}
-    
 
-    .footer-inner {
-        flex-direction: column;
-        gap: 14px;
-        text-align: center;
+    .footer-inner{
+        flex-direction:column;
+        gap:14px;
+        text-align:center;
     }
     .contact-buttons{flex-direction:column;align-items:stretch}
     .btn{text-align:center}

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
-        <title data-i18n="pageTitle">Portfolio de Dr.Taiko</title>
+        <title data-i18n="pageTitle">Dr.Taiko's Portfolio</title>
         <link rel="icon" type="image/png" href="imgs/pdp1-ronde.png" />
         <link rel="stylesheet" href="style.css" />
     </head>
@@ -13,31 +13,37 @@
                 <section class="hero" role="region" aria-label="presentation">
                     <div class="hero-inner">
                         <div class="hero-avatar">
-                            <img src="imgs/pdp1.png" data-i18n-alt="avatarAlt" alt="photo de profil" width="120" height="120" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'" />
+                            <img src="imgs/pdp1.png" data-i18n-alt="avatarAlt" alt="profile picture" width="120" height="120" onerror="this.style.display='none'; this.nextElementSibling.style.display='block'" />
                             <div class="avatar-fallback" aria-hidden="true"></div>
                         </div>
                         <div class="hero-text">
-                            <h1 class="pseudo">Dr.Taiko</h1>
-                            <p class="subtitle" data-i18n="heroSubtitle">A toi l'honneur twin <3 </p>
+                            <div class="hero-titles">
+                                <h1 class="pseudo">Dr.Taiko</h1>
+                                <p class="subtitle" data-i18n="heroSubtitle">Welcome to my portfolio, enjoy reading!</p>
+                            </div>
+                            <div class="lang-switcher">
+                                <button class="lang-btn" data-lang="en">EN</button>
+                                <button class="lang-btn" data-lang="fr">FR</button>
+                            </div>
                         </div>
                     </div>
                 </section>
 
-                <section class="about" role="region" aria-label="à propos">
+                <section class="about" role="region" aria-label="about">
                     <div class="card about-card">
-                        <h2 data-i18n="aboutTitle">À propos de moi</h2>
-                        <p data-i18n="aboutText">Bonjour, je suis Dr.Taiko et depuis que je suis tout petit, J'ADORE la technologie j'ai développé une véritable obsession pour les petits projets idiots comme jouer à Half-Life 2 sur les platformes les plus instables possibles, installer des mods sur mes consoles pendant des heures en sachant pertinemment que je n'y jouerai qu'une fois car je suis un gros flemmard, ou encore personnaliser mon Linux au lieu de travailler. Bref, je suis quelqu'un d'occupé, pour toutes les mauvaises raisons. Cependant, il m'arrive (c'est rare lol) de lock in sur une tâche et de la réaliser sérieusement.</p>
+                        <h2 data-i18n="aboutTitle">About myself</h2>
+                        <p data-i18n="aboutText">Heya! I'm Dr.Taiko, and I am someone who LOVES technology since I was little, and I'm obsessed with trying silly things like playing Half-Life 2 on every device I own, homebrewing consoles and installing mods for 5+ hours while knowing that I'll play it once and then never touch it again, ricing my Linux even though I should be working etc... In short, I'm a busy person for the wrong reasons. But SOMETIMES I lock in and do the job for real.</p>
                     </div>
                 </section>
 
-                <section class="projects" role="region" aria-label="projets">
+                <section class="projects" role="region" aria-label="projects">
                     <div class="card projects-card">
-                        <h2 data-i18n="projectsTitle">Mes projets</h2>
+                        <h2 data-i18n="projectsTitle">My projects</h2>
                         <ul class="project-list">
-                            <li class="project-item"><a href="#" data-i18n="project1">Projet 1</a></li>
-                            <li class="project-item"><a href="#" data-i18n="project2">Projet 2</a></li>
-                            <li class="project-item"><a href="#" data-i18n="project3">Projet 3</a></li>
-                            <li class="project-item"><a href="#" data-i18n="project4">Projet (en vrai j'en ai pas mais faut faire genre)</a></li>
+                            <li class="project-item"><a href="#" data-i18n="project1">IMBATABLE : A fan-made UNBEATABLE French translation mod.</a></li>
+                            <li class="project-item"><a href="#" data-i18n="project2">Nothing (yet!)</a></li>
+                            <li class="project-item"><a href="#" data-i18n="project3">Nothing (yet!)</a></li>
+                            <li class="project-item"><a href="#" data-i18n="project4">Nothing (yet!)</a></li>
                         </ul>
                     </div>
                 </section>
@@ -45,10 +51,10 @@
                 <footer class="site-footer" role="contentinfo">
                     <div class="footer-inner">
                         <div class="footercopyright">
-                            <span data-i18n="footercopyright">© 2026 Dr.Taiko sous MIT License (vole pas sinon je te botte les fesses) - </span><span data-i18n="footerNote">Fait avec bcp d'amour et de mommy asmr</span>
+                            <span data-i18n="footercopyright">© 2026 Dr.Taiko under MIT License (don't steal or I'll kick your ass) - </span><span data-i18n="footerNote">Made with lots of ❤️ and a bit of mommy asmr</span>
                         </div>
                         <div class="contact-buttons">
-                            <a class="btn discord" href="https://discord.gg/myMP4CpgxY" data-i18n-aria="discordAria" aria-label="Bonk! vert">Discord</a>
+                            <a class="btn discord" href="https://discord.gg/myMP4CpgxY" data-i18n-aria="discordAria" aria-label="Discord server">Discord</a>
                             <a class="btn mail" href="mailto:Dr.Taiko@proton.me" data-i18n-aria="mailAria" aria-label="Email">Mail</a>
                             <a class="btn github" href="https://github.com/Dr-Taiko" data-i18n-aria="githubAria" aria-label="GitHub">GitHub</a>
                         </div>
