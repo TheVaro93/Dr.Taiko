@@ -1,8 +1,8 @@
-name: Dr-Taiko Portfolio - Annual Year Update
+name: Annual Year Update
 
 on:
   schedule:
-    - cron: "0 0 1 1 *"
+    - cron: "0 0 1 1 *"    
   workflow_dispatch:
 
 permissions:
