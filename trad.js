@@ -1,18 +1,18 @@
 const PAGE_TRANSLATIONS = {
     index: {
         fr: {
-            pageTitle: "Portfolio de Dr.Taiko",
+            pageTitle: "Site web de Dr.Taiko",
             avatarAlt: "photo de profil de Dr.Taiko",
-            heroSubtitle: "Bienvenue sur mon portfolio, bonne lecture !",
+            heroSubtitle: "Bienvenue sur mon site web !",
             aboutTitle: "À propos de moi",
-            aboutText: "Bonjour, je suis Dr.Taiko et depuis que je suis tout petit, J'ADORE la technologie. J'ai développé une véritable obsession pour les petits projets idiots comme jouer à Half-Life 2 sur les plateformes les plus instables possibles, installer des mods sur mes consoles pendant des heures en sachant pertinemment que je n'y jouerai qu'une fois car je suis un gros flemmard, ou encore personnaliser mon Linux au lieu de travailler. Bref, je suis quelqu'un d'occupé, pour toutes les mauvaises raisons. Cependant, il m'arrive (c'est rare mdr) de me concentrer sur une tâche et de la réaliser sérieusement.",
+            aboutText: "Salut! je suis Dr.Taiko, et je suis quelqu'un qui ADORE la technologie et la photographie depuis que je suis tout petit et j'ai développé une véritable obsession pour des petits projets stupides comme jouer à des jeux gourmands sur le hardware le plus nul imaginable, homebrewing des consoles et installer des mods pendant plus de 10 heures en sachant pertinemment que je n'y jouerais qu'une seule fois dans ma vie car je suis un gros flemmard, prendre des photos qui on l'air cool ou marrante, ricer mon Linux alors que je devrais travailler etc... Cependant, il m'arrive (c'est rare mdr) de me concentrer sur une tâche et de la réaliser sérieusement, mais si on me demande si je travaille, je répondrais sûrement non.",
             projectsTitle: "Mes projets",
             project1: "Mod de traduction française du jeu vidéo UNBEATABLE.",
-            project2: "Rien (pour l'instant !)",
+            project2: "Transformer ce portfolio en mon site web perso parce que pourquoi pas",
             project3: "Rien (pour l'instant !)",
             project4: "Rien (pour l'instant !)",
             footercopyright: "© 2026 Dr.Taiko sous MIT License (ne pas voler sinon j'irais vous botter les fesses) - ",
-            footerNote: "Fait avec beaucoup d'amour, sans sucre ajouté !",
+            footerNote: "Fait avec beaucoup d'amour, sans sucre ajouté ! - Contacter moi préférablement sur Discord car je suis presque tout le temps en ligne, sinon envoyer moi un mail.",
             discordAria: "Serveur Discord",
             mailAria: "Email",
             githubAria: "GitHub"
