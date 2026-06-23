@@ -12,7 +12,7 @@ const PAGE_TRANSLATIONS = {
             project3: "Rien (pour l'instant !)",
             project4: "Rien (pour l'instant !)",
             footercopyright: "© 2026 Dr.Taiko sous MIT License (ne pas voler sinon j'irais vous botter les fesses) - ",
-            footerNote: "Fait avec beaucoup d'amour, sans sucre ajouté ! - Contacter moi préférablement sur Discord car je suis presque tout le temps en ligne, sinon envoyer moi un mail.",
+            footerNote: "Fait avec beaucoup d'amour, sans sucre ajouté !",
             discordAria: "Serveur Discord",
             mailAria: "Email",
             githubAria: "GitHub"
