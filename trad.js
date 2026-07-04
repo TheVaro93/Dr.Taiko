@@ -9,7 +9,7 @@ const PAGE_TRANSLATIONS = {
             projectsTitle: "Mes projets",
             project1: "Mod de traduction française du jeu vidéo UNBEATABLE.",
             project2: "Transformer ce portfolio en mon site web perso parce que pourquoi pas",
-            project3: "Rien (pour l'instant !)",
+            project3: "va check le salon bot twin",
             project4: "Rien (pour l'instant !)",
             footercopyright: "© 2026 Dr.Taiko sous MIT License (ne pas voler sinon j'irais vous botter les fesses) - ",
             footerNote: "Fait avec beaucoup d'amour, sans sucre ajouté !",
