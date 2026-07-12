@@ -14,6 +14,7 @@ body{
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
+    background-attachment:fixed;
     color:#fff;
     overflow:auto;
 }
@@ -163,8 +164,10 @@ body{
 }
 .btn:hover{transform:translateY(-3px);background:rgba(255,255,255,.04);box-shadow:0 10px 24px rgba(2,6,23,.35)}
 .btn.discord{border-color:rgba(88,101,242,.35)}
-.btn.mail{border-color:rgba(255,184,107,.28);color:var(--accent)}
-.btn.github{border-color:rgba(255,255,255,.18)}
+.btn.mail{border-color:rgba(255,184,107,.28);color:#fff}
+.btn.github{border-color:rgba(0,0,0,.5)}
+.btn.youtube{border-color:rgba(255,0,0,.18)}
+.btn.twitch{border-color:rgba(145,70,255,.35)}
 
 .lang-switcher{
     display:flex;
@@ -229,7 +232,7 @@ body{
 
 @media (max-width:520px){
     body{overflow:auto}
-    .stage{height:auto;min-height:100vh;padding:16px}
+    .stage{height:auto;min-height:auto;padding:16px;align-items:flex-start;justify-content:flex-start}
     .content{width:min(100%,92vw)}
 
     .footer-inner{
